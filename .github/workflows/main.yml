@@ -6,7 +6,7 @@ on:
     branches: [ "main" ]
   schedule:
     #- cron: '2,17,32,47 * * * *'
-    - cron: '2/30 * * * '
+    - cron: '2,32 * * * *'
 
 jobs:
   run-pyautogui:
